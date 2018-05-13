@@ -6,8 +6,9 @@ import inspect
 from analyser.bases import BaseClassCheck
 from straight.plugin import load
 
+plugins = load('analyser.extensions', subclasses=BaseClassCheck)
+
 def check_class(node):
-    plugins = load('analyser.extensions', subclasses=BaseClassCheck)
     # The call() function yields a function object
     # http://straightplugin.readthedocs.io/en/latest/api.html#straight.plugin.manager.PluginManager.call
     # Not sure why..
