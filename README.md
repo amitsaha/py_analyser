@@ -13,4 +13,4 @@ All you will need to do is basically install `nox` as per the docs and then run 
 
 ## Learn more
 
-To learn more about my learnings, see my [blog post]().
+To learn more about my learnings, see my [blog post](https://echorand.me/a-demo-plugin-based-python-code-analyser.html).

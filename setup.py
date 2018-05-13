@@ -8,7 +8,6 @@ setup(
     long_description='',
     author='Amit Saha',
     author_email='a@a.com',
-    license='Apache Software License',
     install_requires=['straight.plugin'],
     packages=['analyser'],
     zip_safe=False,
